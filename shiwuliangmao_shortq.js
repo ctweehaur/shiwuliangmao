@@ -28,7 +28,7 @@ const shortQData = [
         ],
         sPy: [
             "zhǎo chū miáo xiě māo xíng wéi tuì huà yǐ jí yǔ lǎo shǔ gòng chǔ de kè wén yuán huà shuài bù bǔ shǔ shèn zhě yǔ shǔ yóu xì",
-            "shuō míng yóu yú māo bú jìn zé dǎo zhì lǎo shǔ háo wú gù jì zài jiā lǐ biàn dé bǐ qián gèng jiā chāng jué sì nüè yì bào"
+            "shuō míng yóu yú māo bú jìn zé dǎo zhì lǎo shǔ háo wú gù jì zài jiā lǐ biàn dé bǐ yǐ qián gèng jiā chāng jué sì nüè yì bào"
         ],
         sEn: "Step 1: Point to the key text charting its absolute collapse of duty ('generally didn't hunt, even played games with rats').<br>Step 2: Note that since the apex predator slacked, the rats threw off all restraint and grew rampant.",
         aZh: "这只猫变得整天安享清福，往往根本不去捕捉老鼠，甚至发展到和老鼠在一起嬉戏玩耍。老鼠们因此毫无惧怕，在家里变得比过去更加猖獗凶暴。",
