@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 1. 修改了网页标签的标题 -->
     <title>互动古文：世无良猫 · 郁离子 (中英双语·词解版)</title>
     
+    <!-- 引入独立CSS (保持不变) -->
     <link rel="stylesheet" href="classic_style.css">
     
+    <!-- 2. 修改了引入的 5 个 JS 数据包文件名 -->
     <script src="shiwuliangmao_text.js"></script>
     <script src="shiwuliangmao_translation.js"></script>
     <script src="shiwuliangmao_analysis.js"></script>
@@ -17,11 +20,14 @@
  
 <div class="app-container">
     <div class="header-section">
+        <!-- 3. 修改了网页顶部的文章大标题 -->
         <h1 class="title">世无良猫</h1>
+        <!-- 4. 修改了作者与出处信息 -->
         <p class="author">《郁离子》 / 刘基 (明代)</p>
     </div>
     
     <div class="poem-container">
+        <!-- 古文原文动态容器 -->
         <div id="dynamic-poem-container"></div>
         
         <div class="translation-block" id="translationBlock">
@@ -58,7 +64,7 @@
 <script>
     let originalQuizQuestions = [];
 
-    // 【终极重构注音引擎】：加入最全的标点与特殊符号过滤（破折号、箭头、引号、括号），让它们自动不消耗拼音！
+    // 【网页核心注音引擎】：加入最全的标点与英文字母过滤，让它们自动不消耗拼音，上方留空！
   function alignText(zh, py) {
     if (!zh) return '';
     const chars = zh.trim().split('');
@@ -66,8 +72,9 @@
     let pIdx = 0;
     let html = '';
     for (let c of chars) {
-        // 【核心精准修复】：正则表达式末尾新增 \/，让半角斜杠自动判定为标点，绝不吞噬和位移拼音！
-        if (/[，。？！：“”‘’（）《》、\-\:；—\(\)→\s0-9\.…\/]/.test(c)) {
+        // 【核心精准升级】：正则表达式最后面加入了 a-zA-Zāáǎàēéěèīíǐìōóǒòūúǔùüǖǘǚǜ
+        // 完美拦截所有基础英文字母及带有汉语拼音四声调的扩展英文字符，不给它们拼音，上方自动变空格！
+        if (/[，。？！：“”‘’（）《》、\-\:；—\(\)→\s0-9\.…\/a-zA-Zāáǎàēéěèīíǐìōóǒòūúǔùüǖǘǚǜ]/.test(c)) {
             html += `<span class="punctuation">${c}</span>`;
         } else {
             const p = pys[pIdx] || '';
@@ -78,7 +85,7 @@
     return html;
 }
 
-// 同样把这个也一起改掉，确保万无一失
+// 同样在带有前缀的函数里也同步加上英文字母拦截过滤
 function alignTextWithPrefix(prefix, zh, py) {
     if (!zh) return '';
     const chars = zh.trim().split('');
@@ -87,8 +94,8 @@ function alignTextWithPrefix(prefix, zh, py) {
     html += `<span class="char-box" style="margin-right: 8px !important;"><span class="py-text">&nbsp;</span><span class="zh-text" style="font-weight: bold; color: #1e293b;">${prefix}</span></span>`;
     let pIdx = 0;
     for (let c of chars) {
-        // 【核心精准修复】：同步追加 \/ 拦截机制
-        if (/[Epic，。？！：“”‘’（）《》、\-\:；—\(\)→\s0-9\.…\/]/.test(c)) {
+        // 【核心精准升级】：这里同步加入英文字母与拼音调号字符拦截机制
+        if (/[，。？！：“”‘’（）《》、\-\:；—\(\)→\s0-9\.…\/a-zA-Zāáǎàēéěèīíǐìōóǒòūúǔùüǖǘǚǜ]/.test(c)) {
             html += `<span class="punctuation">${c}</span>`;
         } else {
             const p = pys[pIdx] || '';
