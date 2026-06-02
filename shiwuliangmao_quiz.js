@@ -122,7 +122,7 @@ const quizQuestions = [
     {
         id: 4,
         text: "老鼠最后“以故益暴”，其中“以故”在文中的正确含义是？",
-        py: "lǎo shǔ zuì hòu yǐ gù yì bào qí zhōng yǐ gù zài wén zhāng zhōng de zhèng què hán yì shì",
+        py: "lǎo shǔ zuì hòu yǐ gù yì bào qí zhōng yǐ gù zài wén zhōng de zhèng què hán yì shì",
         en: "The rats became 'yǐ gù yì bào'. What does the phrase 'yǐ gù' mean here?",
         options: [
             {
