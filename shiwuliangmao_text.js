@@ -23,7 +23,7 @@ const poemData = [
     { text: "率", py: "shuài", zh: "副词，基本上，大都，往往。", en: "generally", exam: true },
     { text: "不", py: "bù", zh: "不。", en: "did not" },
     { text: "捕鼠", py: "bǔ shǔ", zh: "捕捉老鼠。", en: "catch any rats." },
-    { text: "区域", punc: true },
+    { text: "，", punc: true },
     { text: "甚者", py: "shèn zhě", zh: "更严重的（情况）。“甚”，厉害、严重。", en: "Worse still,", exam: true },
     { text: "与", py: "yǔ", zh: "介词，和，跟。", en: "it even" },
     { text: "鼠", py: "shǔ", zh: "老鼠。", en: "with the rats" },
