@@ -57,7 +57,7 @@ const shortQData = [
         id: "Q4",
         qZh: "从管理学或家庭教育的角度来看，主人精心呵护的“良猫”之所以变成“废猫”，其中的教训是什么？",
         qPy: "cóng guǎn lǐ xué huò jiā tíng jiào yù de jiǎo dù lái kàn zhǔ rén jīng xīn hē hù de liáng māo zhī suǒ yǐ biàn chéng fèi māo qí zhōng de jiào xùn shì shén me",
-        qen: "From management or parenting viewpoints, what is the lesson behind the elite mouser turning totally useless under pampered care?",
+        qEn: "From management or parenting viewpoints, what is the lesson behind the elite mouser turning totally useless under pampered care?",
         sZh: [
             "1. 揭示过度溺爱（生于忧患，死于安乐）的生存劣势理论：如果把人才放进完全没有压力、过于安逸舒适的温室里，只会消磨掉其原本卓越的生存和竞争技能。",
             "2. 指出合理的激励机制重要性：必须给人才保留适度的竞争危机感和目标原动力，不能用盲目的娇惯亲手毁掉能手。"
