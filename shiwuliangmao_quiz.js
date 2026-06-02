@@ -11,7 +11,8 @@ const quizQuestions = [
                 en: "Pronounced 'è', meaning the rats looked ferocious and ugly.",
                 correct: false,
                 explanation: "错误。在这个语境中“恶”是动词，作讨厌、痛恨讲，不能读作恶劣的恶。",
-                explanationPy: "cuò wù zài zhè gè yǔ jìng zhōng wù shì dòng cí zuò tǎo yàn tòng hèn jiǎng bù néng dú zuò è liè de è"
+                explanationPy: "cuò wù zài zhè gè yǔ jìng zhōng wù shì dòng cí zuò tǎo yàn tòng hèn jiǎng bù néng dú zuò è liè de è",
+                explanationEn: "Incorrect. In this context, 'wù' functions as a verb meaning to detest or hate, not 'è' (ferocious)."
             },
             {
                 text: "发音为 wù，动词，讨厌、痛恨、厌恶",
@@ -19,7 +20,8 @@ const quizQuestions = [
                 en: "Pronounced 'wù', a verb meaning to detest, hate, or loathe.",
                 correct: true,
                 explanation: "正确！“某恶鼠”指的是某个人非常讨厌、痛恨家里出没的老鼠。",
-                explanationPy: "zhèng què mǒu wù shǔ zhǐ de shì mǒu gè rén fēi cháng tǎo yàn tòng hèn jiā lǐ chū mò de lǎo shǔ"
+                explanationPy: "zhèng què mǒu wù shǔ zhǐ de mǒu gè rén fēi cháng tǎo yàn tòng hèn jiā lǐ chū mò de lǎo shǔ",
+                explanationEn: "Correct! 'Mǒu wù shǔ' means a certain person deeply detested and hated the rats roaming in his house."
             },
             {
                 text: "发音为 ě，指看到老鼠觉得恶心、想吐",
@@ -27,15 +29,17 @@ const quizQuestions = [
                 en: "Pronounced 'ě', meaning feeling nauseous or sick upon seeing rats.",
                 correct: false,
                 explanation: "错误。恶心想吐是现代汉语的口语搭配，不符合古汉语实词的核心法度。",
-                explanationPy: "cuò wù ě xīn xiǎng tǔ shì xiàn dài hàn yǔ de kǒu yǔ dā pèi bù fú hé gǔ hàn yǔ shí cí de hé xīn fǎ dù"
+                explanationPy: "cuò wù ě xīn xiǎng tǔ xiàn dài hàn yǔ de kǒu yǔ dā pèi bù fú hé gǔ hàn yǔ shí cí de hé xīn fǎ dù",
+                explanationEn: "Incorrect. Nausea is a modern colloquial definition, which does not fit the classical Chinese usage here."
             },
             {
                 text: "发音为 wū，疑问代词，表示哪里、怎么",
-                py: "fā yīn wéi wū yí wèn dài cí biǎo shì nǎ lǐ zěn me",
+                py: "fā yīn wéi wū yí wèn dài cí biǎo nǎ lǐ zěn me",
                 en: "Pronounced 'wū', an interrogative pronoun meaning 'where' or 'how'.",
                 correct: false,
                 explanation: "错误。虽然“恶”在句首可以充当疑问代词（如恶能），但在句中紧跟主语后显然是动词谓语。",
-                explanationPy: "cuò wù suī rán wù zài jù shǒu kě yǐ chōng dāng yí wèn dài cí dàn zài jù zhōng jǐn gēn zhǔ yǔ hòu xiǎn rán shì dòng cí wèi yǔ"
+                explanationPy: "cuò wù suī rán wù zài jù shǒu kě yǐ chōng dāng yí wèn dài cí zài jù zhōng jǐn gēn zhǔ yǔ hòu xiǎn rán shì dòng cí wèi yǔ",
+                explanationEn: "Incorrect. Although 'wū' can be an interrogative pronoun at a sentence start, here it follows the subject as a main verb."
             }
         ]
     },
@@ -51,7 +55,8 @@ const quizQuestions = [
                 en: "Feeling mentally tired or annoyed of eating meat.",
                 correct: false,
                 explanation: "错误。主人是为了宠爱猫，不可能让猫对食物产生心理厌烦。",
-                explanationPy: "cuò wù zhǔ rén shì wèi le chǒng ào māo bù kě néng ràng māo duì shí wù chǎn shēng xīn lǐ yàn fán"
+                explanationPy: "cuò wù zhǔ rén wèi le chǒng ào māo bù kě néng māo duì shí wù chǎn shēng xīn lǐ yàn fán",
+                explanationEn: "Incorrect. The owner pampered the cat immensely, so it was not a matter of the cat feeling annoyed by food."
             },
             {
                 text: "通假字，同“餍”，意思是使……饱食、喂饱",
@@ -59,7 +64,8 @@ const quizQuestions = [
                 en: "A phonetic loan character for '餍', meaning to feed to repletion.",
                 correct: true,
                 explanation: "正确！“厌以腥膏”是倒装句，意思就是每天用大量的肥肉和鲜鱼去把猫给喂得饱饱的。",
-                explanationPy: "zhèng què yàn yǐ xīng gāo shì dào zhuāng jù yì si jiù shì tiān tiān yòng dà liàng de féi ròu hé xiān yú qù bǎ māo gěi wèi dé bǎo bǎo de"
+                explanationPy: "zhèng què yàn yǐ xīng gāo shì dào zhuāng jù yì si jiù tiān tiān yòng dà liàng de féi ròu hé xiān yú qù bǎ māo gěi wèi dé bǎo bǎo de",
+                explanationEn: "Correct! It is a loan word for 'yàn' (餍), meaning to overfeed. The owner stuffed the cat with endless rich meats daily."
             },
             {
                 text: "指食物坏掉、腐烂发出的腥臭味",
@@ -67,7 +73,8 @@ const quizQuestions = [
                 en: "Referring to the putrid smell of spoiled or rotten food.",
                 correct: false,
                 explanation: "错误。属于望文生义地猜测“腥膏”带来的感官错觉。",
-                explanationPy: "cuò wù shǔ yú wàng wén shēng yì de cāi cè xīng gāo chǎn shēng de gǎn guān cuò jué"
+                explanationPy: "cuò wù shǔ yú wàng wén shēng yì de cāi cè xīng gāo chǎn shēng de gǎn guān cuò jué",
+                explanationEn: "Incorrect. This represents a literal guess based purely on the raw components of the food description."
             },
             {
                 text: "满足，指满足了主人的虚荣心",
@@ -75,7 +82,8 @@ const quizQuestions = [
                 en: "Satisfy, meaning satisfying the owner's vanity.",
                 correct: false,
                 explanation: "错误。虽然“厌”有满足之意（如贪得无厌），但在修饰具体食物时特指饱食。",
-                explanationPy: "cuò wù suī rán yàn yǒu mǎn zú zhī yì dàn zài xiū shì jù tǐ shí wù shí tè zhǐ bǎo shí"
+                explanationPy: "cuò wù suī rán yàn mǎn zú zhī yì zài xiū shì jù tǐ shí wù shí tè zhǐ bǎo shí",
+                explanationEn: "Incorrect. While 'yàn' can mean satisfaction in general contexts, it specifically means overfeeding when applied to meals."
             }
         ]
     },
@@ -91,7 +99,8 @@ const quizQuestions = [
                 en: "The cat was too cowardly and feared large, aggressive rats.",
                 correct: false,
                 explanation: "错误。猫后来甚至跟老鼠开心嬉戏（与鼠游戏），足见它完全不怕老鼠。",
-                explanationPy: "cuò wù māo hòu lái shèn zhì gēn lǎo shǔ kāi xīn xī xì yú shǔ yóu xì zú jiàn tā wán quán bú pà lǎo shǔ"
+                explanationPy: "cuò wù māo hòu lái shèn zhì gēn lǎo shǔ kāi xīn xī xì zú jiàn tā wán quán bú pà lǎo shǔ",
+                explanationEn: "Incorrect. The cat later played casually with the rats (yǔ shǔ yóu xì), proving it harbored zero fear toward them."
             },
             {
                 text: "主人提供了极度安逸、饱食终日的环境，直接消磨掉了猫的捕鼠猎食天性",
@@ -99,7 +108,8 @@ const quizQuestions = [
                 en: "The owner provided excessive luxury and constant repletion, ruining the cat's natural hunting drive.",
                 correct: true,
                 explanation: "正确！文中指出“猫既饱且安”，猫整天不愁吃喝、生活太舒服，就彻底丧失了捕鼠的生存原动力。",
-                explanationPy: "zhèng què wén zhāng zhōng zhǐ chū māo jì bǎo qiě ān māo zhěng tiān bù chóu chī hē shēng huó tài shū fú jiù chè dǐ shàng shī le bǔ shǔ de shēng cún yuán dòng lì"
+                explanationPy: "zhèng què wén zhāng zhōng zhǐ chū māo jì bǎo qiě ān māo zhěng tiān bù chóu chī hē shēng huó tài shū fú jiù chè dǐ shàng shī le bǔ shǔ de shēng cún yuán dòng lì",
+                explanationEn: "Correct! The text highlights 'māo jì bǎo qiě ān.' Absolute over-feeding and a luxury environment drained its drive to hunt."
             },
             {
                 text: "这只猫生病了，手脚酥软完全跑不动",
@@ -107,23 +117,25 @@ const quizQuestions = [
                 en: "The cat fell ill and lacked the physical capacity to move.",
                 correct: false,
                 explanation: "错误。文中没有提及任何疾病描述，它是健康且肥胖安逸的。",
-                explanationPy: "cuò wù wén zhāng zhōng méi yǒu tí jí rèn hé jí bìng miáo shù tā shì jiàn kāng qiě féi pàng ān yì de"
+                explanationPy: "cuò wù wén zhāng zhōng méi tí jí rèn hé jí bìng miáo shù tā jiàn kāng qiě féi pàng ān yì de",
+                explanationEn: "Incorrect. There is no mention of illness anywhere; the cat was perfectly healthy but completely pampered."
             },
             {
                 text: "主人买到了一只假猫，它根本就不是捕鼠品种",
-                py: "zhǔ rén mǎi dào le yī zhī jiǎ māo tā gēn běn jiù bú shì bǔ shǔ pǐn zhǒng",
+                py: "zhǔ rén mǎi dào le yī zhī jiǎ māo tā gēn běn jiù bú bǔ shǔ pǐn zhǒng",
                 en: "The owner purchased a fake cat that wasn't a standard mousing breed.",
                 correct: false,
                 explanation: "错误。主人“破家求良猫”，买到的确实是优秀的品种，退化纯粹是后天环境溺爱导致的。",
-                explanationPy: "cuò wù zhǔ rén pò jiā qù qiú liáng māo mǎi dào de què shí shì yōu xiù de pǐn zhǒng tuì huà chún cuì shì hòu tiān huán jìng nì ài dǎo zhì de"
+                explanationPy: "cuò wù zhǔ rén pò jiā qù qiú liáng māo mǎi dào de què shí yōu xiù de pǐn zhǒng tuì huà chún cuì hòu tiān huán jìng nì ài dǎo zhì de",
+                explanationEn: "Incorrect. The owner spent a fortune to secure an excellent breed; its decay was entirely due to subsequent pampering."
             }
         ]
     },
     {
         id: 4,
         text: "老鼠最后“以故益暴”，其中“以故”在文中的正确含义是？",
-        py: "lǎo shǔ zuì hòu yǐ gù yì bào qí zhōng yǐ gù zài wén zhōng de zhèng què hán yì shì",
-        en: "The rats became 'yǐ gù yì bào'. What does the phrase 'yǐ gù' mean here?",
+        py: "lǎo shǔ zuì hòu yǐ gù yì bào qí zhōng yǐ gù zài wén zhāng zhōng de zhèng què hán yì shì",
+        en: "The rats became 'yǐ gù yǐ bào'. What does the phrase 'yǐ gù' mean here?",
         options: [
             {
                 text: "故意、特意去挑衅主人",
@@ -131,7 +143,8 @@ const quizQuestions = [
                 en: "Intentionally / purposefully mocking the owner.",
                 correct: false,
                 explanation: "错误。在古汉语中，“以故”是一个固定的因果复合结构，不代表故意的心理主观。",
-                explanationPy: "cuò wù zài gǔ dài hàn yǔ zhōng yǐ gù shì yī gè gù dìng de yīn guǒ fù hé jié gòu bú biǎo shì gù yì de xīn lǐ zhǔ guān"
+                explanationPy: "cuò wù zài gǔ dài hàn yǔ zhōng yǐ gù yī gè gù dìng de yīn guǒ fù hé jié gòu bú biǎo gù yì de xīn lǐ zhǔ guān",
+                explanationEn: "Incorrect. In classical syntax, 'yǐ gù' is a structural causal connective, not an adverb meaning intentionally."
             },
             {
                 text: "因为这个缘故、因此",
@@ -139,7 +152,8 @@ const quizQuestions = [
                 en: "Because of this reason / therefore.",
                 correct: true,
                 explanation: "正确！“以故益暴”指的就是老鼠看到连猫都不抓它们、反而和它们玩耍，因为这个缘故就更加猖獗（益暴）了。",
-                explanationPy: "zhèng què yǐ gù yì bào zhǐ de jiù shì lǎo shǔ kàn dào lián māo dōu bù zhuā tā men fǎn ér yǔ tā men wán shuǎ yīn wèi zhè gè yuán gù jiù gèng jiā chāng jué le"
+                explanationPy: "zhèng què yǐ gù yì bào zhǐ de jiù lǎo shǔ kàn dào lián māo dōu bù zhuā tā men fǎn ér yǔ tā men wán shuǎ yīn wèi zhè gè yuán gù jiù gèng jiā chāng jué le",
+                explanationEn: "Correct! It means 'because of this reason.' Seeing that the cat offered no threat, the rats became even more rampant."
             },
             {
                 text: "讲述过去古老的故事",
@@ -147,15 +161,17 @@ const quizQuestions = [
                 en: "Narrating old historical folklore tales.",
                 correct: false,
                 explanation: "错误。属于把“故”死板当成“故事”的荒唐拆字瞎猜。",
-                explanationPy: "cuò wù shǔ yú bǎ gù sǐ bǎn dàng chéng gù shì de huāng táng chāi zì xiā cāi"
+                explanationPy: "cuò wù shǔ yú bǎ gù sǐ bǎn dàng chéng gù shì de huāng táng chāi zì xiā cāi",
+                explanationEn: "Incorrect. This is an ungrounded guess that takes 'gù' literally as 'gù shì' (stories), breaking the syntax."
             },
             {
                 text: "因为老鼠们全都是老相识了",
-                py: "yīn wèi lǎo shǔ men quán dōu shì lǎo xiāng shí le",
+                py: "yīn wèi lǎo shǔ men quán dōu lǎo xiāng shí le",
                 en: "Because the rats were all old acquaintances.",
                 correct: false,
                 explanation: "错误。完全不符合文言语境的因果推导。",
-                explanationPy: "cuò wù wán quán bù fú hé wén yán yǔ jìng de yīn guǒ tuī dǎo"
+                explanationPy: "cuò wù wán quán bù fú hé wén yán yǔ jìng de yīn guǒ tuī dǎo",
+                explanationEn: "Incorrect. This interpretation is entirely out of line with the logical flow and meaning of the fable."
             }
         ]
     },
@@ -171,7 +187,8 @@ const quizQuestions = [
                 en: "Being too cruel and lacking empathy for small animals.",
                 correct: false,
                 explanation: "错误。他前期对猫甚至过于溺爱，逻辑缺陷在于他的片面主观判断，而非缺乏爱心。",
-                explanationPy: "cuò wù tā qián qī duì māo shèn zhì guò yú nì ài luó jí quē xiàn zài yú tā de piàn miàn zhǔ guān pàn duàn ér fēi quē fá ài xīn"
+                explanationPy: "cuò wù tā qián qī duì māo shèn zhì guò yú nì ài luó jí quē xiàn zài tā de piàn miàn zhǔ guān pàn duàn ér fēi quē fá ài xīn",
+                explanationEn: "Incorrect. He actually pampered the cat excessively at first; his flaw is a logical over-generalization, not cruelty."
             },
             {
                 text: "以偏概全、把自身错误导致的个别恶果全盘推卸给整个外部世界",
@@ -179,7 +196,8 @@ const quizQuestions = [
                 en: "Over-generalizing and projecting the failure of his own making onto the entire external world.",
                 correct: true,
                 explanation: "正确！明明是他自己用不合理的溺爱方式把好猫给养废了，却不反省自己，反而武断认定天下没有好猫，典型的推卸责任与盲目主观主义。",
-                explanationPy: "zhèng què míng míng shì tā zì jǐ yòng bù hé lǐ de nì ài fāng shì bǎ hǎo māo gěi yǎng fèi le què bù fǎn xǐng zì jǐ fǎn ér wǔ duàn rèn dìng tiān xià méi yǒu hǎo māo diǎn xíng de tuī xiè zé rèn yǔ máng mù zhǔ guān zhǔ yì"
+                explanationPy: "zhèng què míng míng tā zì jǐ yòng bù hé lǐ de nì ài fāng shì bǎ hǎo māo gěi yǎng fèi le què bù fǎn xǐng zì jǐ fǎn ér wǔ duàn rèn dìng tiān xià méi yǒu hǎo māo diǎn xíng de tuī xiè zé rèn yǔ máng mù zhǔ guān zhǔ yì",
+                explanationEn: "Correct! He ruined an excellent cat via indulgence but deflected blame onto the world, drawing a sweeping conclusion."
             },
             {
                 text: "没有继续花更多的钱去买更贵、更高级的猫",
@@ -187,7 +205,8 @@ const quizQuestions = [
                 en: "Failing to spend even more money to buy a premium luxury cat.",
                 correct: false,
                 explanation: "错误。钱多并不能解决方法上的错误，思维缺陷在于认知层面。",
-                explanationPy: "cuò wù qián duō bìng bù néng jiě jué fāng fǎ shàng de cuò wù sī wéi quē xiàn zài yú rèn zhī céng miàn"
+                explanationPy: "cuò wù qián duō bìng jiě jué fāng fǎ shàng de cuò wù sī wéi quē xiàn zài rèn zhī céng miàn",
+                explanationEn: "Incorrect. Splurging more money does not correct structural flaws in training; his mistake is purely cognitive."
             },
             {
                 text: "不应该在中途放弃，应该把老鼠和猫隔离开来养",
@@ -195,7 +214,8 @@ const quizQuestions = [
                 en: "Should not have given up halfway; should have quarantined the rats from the cat.",
                 correct: false,
                 explanation: "错误。猫买回来就是为了抓老鼠的，隔离养完全违背了养猫的核心功能需求。",
-                explanationPy: "cuò wù māo mǎi huí lái jiù shì wèi le zhuā lǎo shǔ de gé lí yǎng wán quán wéi bèi le yǎng māo de hé xīn gōng néng xū qiú"
+                explanationPy: "cuò wù māo mǎi huí lái jiù wèi le zhuā lǎo shǔ de gé lí yǎng wán quán wéi bèi yǎng māo de hé xīn gōng néng xū qiú",
+                explanationEn: "Incorrect. Cats are kept precisely to catch rats; isolating them runs completely counter to the mouser's core function."
             }
         ]
     }
