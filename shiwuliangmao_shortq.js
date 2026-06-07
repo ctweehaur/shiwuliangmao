@@ -74,7 +74,7 @@ const shortQData = [
     {
         id: "Q5",
         qZh: "结合大马中学生平常面对SPM、统考或大型课外比赛的复习实际，这篇故事能带给你什么深刻的学习省思？",
-        qPy: "jié hé dà mǎ zhōng xué shēng píng cháng miàn duì SPM tǒng kǎo huò dà xíng kè wài bǐ sài de fù xí shí jì zhè piān gù ... néng dài gěi nǐ shén me shēn kè de xué xí xǐng sī",
+        qPy: "jié hé dà mǎ zhōng xué shēng píng cháng miàn duì tǒng kǎo huò dà xíng kè wài bǐ sài de fù xí shí jì zhè piān gù shì néng dài gěi nǐ shén me shēn kè de xué xí xǐng sī",
         qEn: "Connecting to Malaysian students prepping for SPM, Unified Exams, or major competitions, what self-reflection does this story provide?",
         sZh: [
             "1. 联系自身摆脱舒适圈：我们要警惕安逸的生活环境，不能在温暖的舒适圈里磨灭了备考的拼搏斗志，要主动给自己施加适度的复习压力（居安思危）。",
